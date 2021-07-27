@@ -19,6 +19,12 @@
 	padding-top: 120px;
 	padding-bottom: 60px;
 }
+h1{
+	transform: rotate3d(1, 0, 0, 90deg);
+	transition: 1s;
+
+
+	}
 body{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	
@@ -53,14 +59,52 @@ h3{padding-top: 15px;
 	width: 47%;
 	margin: auto;
 }
+.imagen{
+	transition: 0.8s;
+}
+#caja1{
+	transform: translate(0px , 200px);
+	transition: 2.5s ease;
+	opacity: 0;
+}
+#caja2{
+	transform: translate(0px , 200px);
+	transition: 2.5s ease;
+	opacity: 0;
+}
+#caja3{
+	transform: translate(0px , 200px);
+	transition: 2.5s ease;
+	opacity: 0;
+}
+#caja4{
+	transform: translate(0px , 200px);
+	transition: 2.5s ease;
+	opacity: 0;
+}
+#caja5{
+	transform: translate(0px , 200px);
+	transition: 2.5s ease;
+	opacity: 0;
+}
+#caja6{
+	transform: translate(0px , 200px);
+	transition: 2.5s ease;
+	opacity: 0;
+}
 .imagen img:hover{
 	opacity: 0.8;
-	transition: 0.5s ease;
+	
 	cursor: pointer;
+	
+	transition: 0.5s ease;
+
+
 }
 .imagen img:not(:hover){
-	opacity: 1;
+	
 	transition: 0.5s ease;
+
 }
 .imagen img{
 	width: 100%;
