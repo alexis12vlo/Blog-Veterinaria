@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container1{
+	background-image: url(img/inner.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	
+}
+.container1our{
+	width: 90%;
+	margin: auto;
+	padding: auto;
+	display: flex;
+	justify-content:space-between;
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	
+}
+#aa{
+	font-weight: 600;
+	line-height: 10px;
+	font-size: 17px;
+}
+h1{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+h3{padding-top: 15px;
+	color: #FFFFFF;
+}
+.container2{
+	padding-top: 100px;
+	display: flex;
+	width: 100%;
+}
+.container2con{
+	width: 90%;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.container2concuadro{
+	width: 47%;
+	margin: auto;
+}
+.imagen img:hover{
+	opacity: 0.8;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+.imagen img:not(:hover){
+	opacity: 1;
+	transition: 0.5s ease;
+}
+.imagen img{
+	width: 100%;
+	border-radius: 7px;
+}
+.botonrosado:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.botonrosado:not(:hover){
+	transition: 0.5s;
+	opacity:1;
+}
+.botonrosado{
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	padding: 8px;
+	color: #FFFFFF;
+	background-color: #FD7979 ;
+
+}
+.botondogs{
+	transform: translate(23px,-20px);
+}
+.h2{
+	font-family: "Segoe UI Regular" , sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #000000;
+	line-height: 25px;
+}
+.petcare{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+}
+.coments , .numero{
+	padding-left: 15px;
+	margin-left: 15px;
+	border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(238, 238, 238);
+}
+.fa-heart{
+	color: #111111;
+}
+h4:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+h4{
+	color: #FD7979;
+
+}
+.fa-heart:hover{
+	color: #FD7979;
+}
+
+.numero p:hover{
+	color: #FD7979;
+}
+.p{
+	width: 95%;
+}
+p{
+	color: #67696f;
+}
+.botonleemas button:hover{
+	transition: 0.3s;
+	color: #FFFFFF;
+
+	background-color: #555294;
+}
+.botonleemas button:not(:hover){
+	transition: 0.4s;
+	
+}
+.botonleemas button{
+	border-radius: 23px;
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	 border: 2px solid #eee;
+  margin-top: 20px;
+  font-weight: 600;
+  background: #fff;
+}
