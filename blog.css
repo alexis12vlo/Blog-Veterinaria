@@ -149,18 +149,37 @@ p{
   font-weight: 600;
   background: #fff;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
 	.container1{
 		background-size: contain;
 		margin: auto;
 		padding: auto;
-		width: auto;
+		
+		
 		
 	}
 	.container1our{
 
 		padding-top: 30px;
-		padding-bottom: 100px;
+		padding-bottom: 30px;
+		flex-direction: column;
+	}
+
+	.container2concuadro{
+		padding-bottom: 30px;
+		width: 100%;
+
+	}
+}
+
+@media screen and (max-width:1100px) {
+		.container2{
+		padding-top: 20px;
+	}
+	.container1our{
+
+		padding-top: 30px;
+	
 		flex-direction: column;
 	}
 	h1{
@@ -170,7 +189,7 @@ p{
 		font-size: 18px;
 	}
 	.container2{
-		padding-top: 0px;
+		padding-top: 30px;
 	}
 	.container2con{
 		flex-direction: column;
